@@ -1,6 +1,6 @@
-package com.masdmtr.Dao;
+package com.masdmtr.dao;
 
-import com.masdmtr.Entity.Student;
+import com.masdmtr.entity.Student;
 
 import java.util.Collection;
 

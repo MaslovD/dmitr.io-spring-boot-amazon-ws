@@ -1,7 +1,7 @@
-package com.masdmtr.Controller;
+package com.masdmtr.controllers;
 
-import com.masdmtr.Entity.Student;
-import com.masdmtr.Service.StudentService;
+import com.masdmtr.entity.Student;
+import com.masdmtr.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;

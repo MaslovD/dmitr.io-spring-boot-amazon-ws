@@ -1,4 +1,4 @@
-package com.masdmtr.Entity;
+package com.masdmtr.entity;
 
 /**
  * Created by dmaslov on 13/05/17.

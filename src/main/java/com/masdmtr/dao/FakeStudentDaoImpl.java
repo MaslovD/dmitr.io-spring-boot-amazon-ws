@@ -1,11 +1,11 @@
-package com.masdmtr.Dao;
+package com.masdmtr.dao;
 
 /**
  * Created by dmaslov on 13/05/17.
  */
 
 
-import com.masdmtr.Entity.Student;
+import com.masdmtr.entity.Student;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
 

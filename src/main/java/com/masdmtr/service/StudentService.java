@@ -1,7 +1,7 @@
-package com.masdmtr.Service;
+package com.masdmtr.service;
 
-import com.masdmtr.Dao.StudentDao;
-import com.masdmtr.Entity.Student;
+import com.masdmtr.dao.StudentDao;
+import com.masdmtr.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;

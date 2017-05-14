@@ -15,6 +15,26 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Spring Security-3.2.5" type="spring-security">
+        <properties version="3.2.5" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/spring-security-cas-3.2.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-security-aspects-3.2.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-security-acl-3.2.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-security-config-3.2.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-security-ldap-3.2.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-security-crypto-3.2.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-security-core-3.2.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-security-openid-3.2.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-security-remoting-3.2.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-security-taglibs-3.2.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/spring-security-web-3.2.5.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:1.5.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:1.5.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:1.5.2.RELEASE" level="project" />
@@ -40,10 +60,14 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.7" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:4.3.7.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.3.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.3.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.3.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.3.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-security:1.5.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.3.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-config:4.2.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:4.2.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-web:4.2.2.RELEASE" level="project" />
   </component>
 </module>
