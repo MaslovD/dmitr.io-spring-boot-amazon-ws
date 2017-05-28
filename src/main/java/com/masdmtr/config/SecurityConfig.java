@@ -22,8 +22,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
               .antMatchers("/students/3").hasRole("USER")
                 .and()
                 .formLogin();
-       /* httpSecurity.csrf().disable()
-                .authorizeRequests()
+        httpSecurity.csrf().disable();
+/*                .authorizeRequests()
                 .antMatchers("/students*//**").hasRole("ADMIN")
                 .and().httpBasic().realmName(REALM).authenticationEntryPoint(getBasicAuthEntryPoint())
                 .and().sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);//We don't need sessions to be created.

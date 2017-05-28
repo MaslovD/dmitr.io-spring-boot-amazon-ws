@@ -13,7 +13,7 @@ import java.util.Collection;
 public class StudentService {
 
     @Autowired
-    @Qualifier("fakeData")
+    @Qualifier("mysql")
     private StudentDao studentDao;
 
     public Collection<Student> getAllStudents() {
