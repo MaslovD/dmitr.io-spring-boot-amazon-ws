@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/springAppSecurity.iml" filepath="$PROJECT_DIR$/springAppSecurity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springAppAWS.iml" filepath="$PROJECT_DIR$/springAppAWS.iml" />
     </modules>
   </component>
 </project>
